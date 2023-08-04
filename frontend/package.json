@@ -1,7 +1,8 @@
 {
+  "homepage": "",
   "name": "mernapp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@material-ui/core": "^4.12.4",
@@ -32,6 +33,9 @@
       "react-app/jest"
     ]
   },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+},
   "browserslist": {
     "production": [
       ">0.5%",
